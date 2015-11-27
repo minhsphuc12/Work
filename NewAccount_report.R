@@ -1,39 +1,10 @@
 # Install Packages
 install.packages('rio')
-install.packages('zoo')
-
-install.packages('rmarkdown')
-install.packages('shiny')
-install.packages('ggplot2')
-install.packages('knitr')
-install.packages('dplyr')
-install.packages('haven')
-install.packages("stringr")
-install.packages("lubridate")
-install.packages("reshape2")
-install.packages('readr')
-install.packages('hash')
 install.packages('data.table')
-install.packages('foreach')
 
 #Load packages
-library(rio)
 library(zoo)
-library(readr)
 library(data.table)
-library(dplyr)
-library(stringr)
-library(lubridate)
-library(reshape2)
-library(foreach)
-library(ggplot2)
-library(ggvis)
-library(shiny)
-library(rmarkdown)
-library(knitr)
-require(lubridate)
-library(hash)
-
 
 #NEW ACCOUNT DATA
 #read data
